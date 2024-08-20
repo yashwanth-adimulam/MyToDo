@@ -1,7 +1,7 @@
 # MyToDo
 ## This is repo for a simple todo list using Kotlin in Android Studio
 
-This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gardle version 8.7
+This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gradle version 8.7
 
 ## Workings of this project
 ### This is the load screen
@@ -15,6 +15,13 @@ This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gar
 
 ### You can delete the completed tasks by pressing on the "Delete Done" button
 ![image](https://github.com/user-attachments/assets/60c58ac6-b6bb-4af9-800a-35b99dce57aa)
+
+## Build this repo in your local system
+1. You can directly clone this repo using git clone command and if you have the same versions for Android Studio and Gradle this should work fine
+2. Else you can also choose to build a new project in Android Studio (make sure that you choose "Empty Views Activity" not "Empty Activity" option while making a new project)
+3. And there are just five flies that you need to modify inorder to build this project
+4. Those five files are "MainActivity.kt", "ToDo.kt", "ToDoAdapter.kt" in the app/src/main/java/com/example/<name_of_your_project> folder
+5. And "activity_main.xml", "item_todo.xml" in the app/src/main/res/layout folder
 
 Please note that this is not a complete todo. It in its current version doesn't have any database connected such that the tasks can be carried on between session.
 
