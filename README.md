@@ -17,3 +17,5 @@ This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gar
 ![image](https://github.com/user-attachments/assets/60c58ac6-b6bb-4af9-800a-35b99dce57aa)
 
 Please note that this is not a complete todo. It in its current version doesn't have any database connected such that the tasks can be carried on between session.
+
+Database connection for this app is currently in works and the repo will be updated in a short period of time with the feature.
