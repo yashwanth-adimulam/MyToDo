@@ -7,18 +7,22 @@ I made this using Android Studio Koala version 2024.1.1 Patch 2 and Gradle versi
 ## How It Works
 ### First Look
 ![image](https://github.com/user-attachments/assets/26ff612b-5c02-4518-abfb-0539334f1939)
+
 This is what you'll see when you open the app.
 
 ### Adding Tasks
 ![image](https://github.com/user-attachments/assets/95f691b4-4cfa-4642-90b8-907a55d29bdd)
+
 Just type your task and hit "Add Todo".
 
 ### Checking Off Tasks
 ![image](https://github.com/user-attachments/assets/6be8057f-1979-4381-afc2-560a7eb52111)
+
 Finished a task? Just tick the box next to it.
 
 ### Cleaning Up
 ![image](https://github.com/user-attachments/assets/60c58ac6-b6bb-4af9-800a-35b99dce57aa)
+
 Hit "Delete Done" to clear out all those completed tasks. Goodbye, clutter!
 
 ## Want to Try It Out?
