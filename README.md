@@ -23,6 +23,8 @@ This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gra
 4. Those five files are "MainActivity.kt", "ToDo.kt", "ToDoAdapter.kt" in the app/src/main/java/com/example/<name_of_your_project> folder
 5. And "activity_main.xml", "item_todo.xml" in the app/src/main/res/layout folder
 
+## Note:
+
 Please note that this is not a complete todo. It in its current version doesn't have any database connected such that the tasks can be carried on between session.
 
 Database connection for this app is currently in works and the repo will be updated in a short period of time with the feature.
