@@ -1,30 +1,40 @@
 # MyToDo
-## This is repo for a simple todo list using Kotlin in Android Studio
+Hey there! 👋 This is a simple todo list app I built using Kotlin in Android Studio. It's pretty basic, but it gets the job done!
 
-This project is build on Android Studio Koala version - 2024.1.1 Patch 2 and gradle version 8.7
+## Tech Stuff
+I made this using Android Studio Koala version 2024.1.1 Patch 2 and Gradle version 8.7. If you're using different versions, you might need to tweak some things.
 
-## Workings of this project
-### This is the load screen
+## How It Works
+### First Look
 ![image](https://github.com/user-attachments/assets/26ff612b-5c02-4518-abfb-0539334f1939)
+This is what you'll see when you open the app.
 
-### To add a task simply just type and press on "Add Todo" button
+### Adding Tasks
 ![image](https://github.com/user-attachments/assets/95f691b4-4cfa-4642-90b8-907a55d29bdd)
+Just type your task and hit "Add Todo".
 
-### You can mark the completed tasks by ticking the checkbox beside every todo
+### Checking Off Tasks
 ![image](https://github.com/user-attachments/assets/6be8057f-1979-4381-afc2-560a7eb52111)
+Finished a task? Just tick the box next to it.
 
-### You can delete the completed tasks by pressing on the "Delete Done" button
+### Cleaning Up
 ![image](https://github.com/user-attachments/assets/60c58ac6-b6bb-4af9-800a-35b99dce57aa)
+Hit "Delete Done" to clear out all those completed tasks. Goodbye, clutter!
 
-## Build this repo in your local system
-1. You can directly clone this repo using git clone command and if you have the same versions for Android Studio and Gradle this should work fine
-2. Else you can also choose to build a new project in Android Studio (make sure that you choose "Empty Views Activity" not "Empty Activity" option while making a new project)
-3. And there are just five flies that you need to modify inorder to build this project
-4. Those five files are "MainActivity.kt", "ToDo.kt", "ToDoAdapter.kt" in the app/src/main/java/com/example/<name_of_your_project> folder
-5. And "activity_main.xml", "item_todo.xml" in the app/src/main/res/layout folder
+## Want to Try It Out?
+1. If you're feeling brave, just clone this repo and run it. Should work if you've got the same Android Studio and Gradle versions.
+2. Or, start a new project in Android Studio. Make sure you pick "Empty Views Activity" (not just "Empty Activity").
+3. You'll only need to mess with five files to get this working:
+   - In `app/src/main/java/com/example/<your_project_name>`:
+     - `MainActivity.kt`
+     - `ToDo.kt`
+     - `ToDoAdapter.kt`
+   - In `app/src/main/res/layout`:
+     - `activity_main.xml`
+     - `item_todo.xml`
 
-## Note:
+## Heads Up!
 
-Please note that this is not a complete todo. It in its current version doesn't have any database connected such that the tasks can be carried on between session.
+This app isn't perfect yet. It doesn't save your tasks between sessions (no database connection). But don't worry, I'm working on that! I'll update this repo soon with that fancy feature.
 
-Database connection for this app is currently in works and the repo will be updated in a short period of time with the feature.
+Feel free to play around with the code. If you come up with any cool improvements, let me know!
